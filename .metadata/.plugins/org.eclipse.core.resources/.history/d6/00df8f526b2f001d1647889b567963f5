@@ -1,0 +1,12 @@
+package com.java8.lambdaExpression;
+
+public class ClassC {
+
+	interface FuncInterface1 {
+		int operation(int a, int b);
+	}
+	
+	interface FuncInterface2 {
+		void message(String msg);
+	}
+}

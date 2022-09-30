@@ -1,0 +1,15 @@
+package com.java8.lambdaExpression;
+
+import java.util.ArrayList;
+
+public class ClassA {
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> arrList = new ArrayList<Integer>();
+		arrList.add(11);
+		arrList.add(22);
+		arrList.add(33);
+		
+		arrList.forEach(n -> System.out.println(n));
+	}
+}

@@ -1,0 +1,16 @@
+package com.java8.lambdaExpression;
+
+public class ClassC {
+
+	interface FuncInterface1 {
+		int operation(int a, int b);
+	}
+	
+	interface FuncInterface2 {
+		void message(String msg);
+	}
+	
+	private int operate(int a, int b, FuncInterface1 fobj) {
+		return fobj.operation(a, b);
+	}
+}

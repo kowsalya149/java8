@@ -1,0 +1,7 @@
+package com.java8.lambdaExpression;
+
+public class ClassA {
+	public static void main(String[] args) {
+		
+	}
+}
